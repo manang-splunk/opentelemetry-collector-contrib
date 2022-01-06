@@ -14,6 +14,7 @@
 - `redisreceiver`: Set start timestamp uniformly for gauge and sum metrics (#6941)
 - `kafkaexporter`: Allow controlling Kafka acknowledgment behaviour  (#6301)
 - `lokiexporter`: Log the first part of the http body on failed pushes to loki (#6946)
+- `signalfxexporter`: add confighttp.HTTPClientSettings in config (#6803)
 
 ## 🛑 Breaking changes 🛑
 
