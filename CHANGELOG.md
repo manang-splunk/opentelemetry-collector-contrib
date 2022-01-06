@@ -11,13 +11,10 @@
 - `datadogexporter`: Add compatibility with ECS Fargate semantic conventions (#6670)
 - `k8s_observer`: discover k8s.node endpoints (#6820)
 - `redisreceiver`: Add missing description fields to keyspace metrics (#6940)
-<<<<<<< HEAD
 - `redisreceiver`: Set start timestamp uniformly for gauge and sum metrics (#6941)
 - `kafkaexporter`: Allow controlling Kafka acknowledgment behaviour  (#6301)
 - `lokiexporter`: Log the first part of the http body on failed pushes to loki (#6946)
 - `signalfxexporter`: add confighttp.HTTPClientSettings in config (#6803)
-=======
->>>>>>> ef704e564 (test changes)
 
 ## 🛑 Breaking changes 🛑
 
