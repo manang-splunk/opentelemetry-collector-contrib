@@ -35,6 +35,8 @@ import (
 	metadata "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
 )
 
+const defaultMaxIdleConns = 100
+
 // TODO: Find a place for this to be shared.
 type baseMetricsExporter struct {
 	component.Component
@@ -144,7 +146,7 @@ func newSignalFxExporter(
 }
 
 func getHTTPClient(config *Config) (*http.Client, error) {
-	defaultMaxConns := 100
+	defaultMaxConns := defaultMaxIdleConns
 	if config.MaxIdleConns == nil {
 		if config.MaxConnections != nil {
 			config.MaxIdleConns = config.MaxConnections
@@ -161,9 +163,9 @@ func getHTTPClient(config *Config) (*http.Client, error) {
 	}
 	// To avoid overriding client headers to request header storing access_token
 	// when access_token_passthrough is true.
-	config.HTTPClientSettings.Headers = map[string]string{}
-
-	return config.HTTPClientSettings.ToClient(nil)
+	httpClientSettings := config.HTTPClientSettings
+	httpClientSettings.Headers = map[string]string{}
+	return httpClientSettings.ToClient(nil)
 }
 
 func newGzipPool() sync.Pool {
