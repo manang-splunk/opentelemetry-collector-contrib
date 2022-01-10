@@ -9,7 +9,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.40.0
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.40.0
-	go.opentelemetry.io/collector/model v0.40.0
+	go.opentelemetry.io/collector/model v0.42.0
 	golang.org/x/mod v0.4.2
 )
 
@@ -401,7 +401,7 @@ require (
 	google.golang.org/api v0.60.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20211021150943-2b146023228c // indirect
-	google.golang.org/grpc v1.42.0 // indirect
+	google.golang.org/grpc v1.43.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/DataDog/dd-trace-go.v1 v1.34.0 // indirect
 	gopkg.in/alexcesaro/statsd.v2 v2.0.0 // indirect
