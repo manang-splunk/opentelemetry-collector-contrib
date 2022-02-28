@@ -9,7 +9,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.40.0
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.40.0
-	go.opentelemetry.io/collector/model v0.40.0
+	go.opentelemetry.io/collector/model v0.45.0
 	golang.org/x/mod v0.4.2
 )
 
@@ -134,8 +134,8 @@ require (
 	github.com/honeycombio/libhoney-go v1.15.6 // indirect
 	github.com/iancoleman/strcase v0.2.0 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
-	github.com/influxdata/influxdb-observability/common v0.2.10 // indirect
-	github.com/influxdata/influxdb-observability/influx2otel v0.2.10 // indirect
+	github.com/influxdata/influxdb-observability/common v0.2.11 // indirect
+	github.com/influxdata/influxdb-observability/influx2otel v0.2.14 // indirect
 	github.com/influxdata/influxdb-observability/otel2influx v0.2.10 // indirect
 	github.com/influxdata/line-protocol/v2 v2.2.1 // indirect
 	github.com/jaegertracing/jaeger v1.28.0 // indirect
@@ -401,7 +401,7 @@ require (
 	google.golang.org/api v0.60.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20211021150943-2b146023228c // indirect
-	google.golang.org/grpc v1.42.0 // indirect
+	google.golang.org/grpc v1.44.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/DataDog/dd-trace-go.v1 v1.34.0 // indirect
 	gopkg.in/alexcesaro/statsd.v2 v2.0.0 // indirect
