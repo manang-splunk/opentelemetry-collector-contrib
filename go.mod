@@ -109,7 +109,7 @@ require (
 	github.com/prometheus/prometheus v1.8.2-0.20210621150501-ff58416a0b02
 	github.com/stretchr/testify v1.7.0
 	go.opentelemetry.io/collector v0.40.0
-	golang.org/x/sys v0.0.0-20211109184856-51b60fd695b3
+	golang.org/x/sys v0.0.0-20220111092808-5a964db01320
 )
 
 require (
@@ -210,7 +210,7 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/cadvisor v0.43.0 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/google/go-cmp v0.5.7 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
@@ -336,7 +336,7 @@ require (
 	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.7.0.20210223165440-c65ae3540d44 // indirect
 	github.com/seccomp/libseccomp-golang v0.9.1 // indirect
 	github.com/shirou/gopsutil v3.21.10+incompatible // indirect
-	github.com/shirou/gopsutil/v3 v3.21.11-0.20211128073732-aa3378b5ffc8 // indirect
+	github.com/shirou/gopsutil/v3 v3.22.2 // indirect
 	github.com/signalfx/com_signalfx_metrics_protobuf v0.0.2 // indirect
 	github.com/signalfx/gohistogram v0.0.0-20160107210732-1ccfd2ff5083 // indirect
 	github.com/signalfx/golib/v3 v3.3.13 // indirect
