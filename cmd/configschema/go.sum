@@ -572,8 +572,8 @@ github.com/dropbox/godropbox v0.0.0-20180512210157-31879d3884b9/go.mod h1:glr97h
 github.com/dustin/go-humanize v0.0.0-20171111073723-bb3d318650d4/go.mod h1:HtrtbFcZ19U5GC7JDqmcUSB87Iq5E25KnS6fMYU6eOk=
 github.com/dustin/go-humanize v1.0.0 h1:VSnTsYCnlFHaM2/igO1h6X3HA71jcobQuxemgkq4zYo=
 github.com/dustin/go-humanize v1.0.0/go.mod h1:HtrtbFcZ19U5GC7JDqmcUSB87Iq5E25KnS6fMYU6eOk=
-github.com/dynatrace-oss/dynatrace-metric-utils-go v0.3.0 h1:q2Ayh9s6Cr75bS5URiOUAoyFXemgKQaBJphbhAaJHCY=
-github.com/dynatrace-oss/dynatrace-metric-utils-go v0.3.0/go.mod h1:qw0E9EJ0PnSlhWawDNuqE0zhc1hqOBUCFIAj3dd9DNw=
+github.com/dynatrace-oss/dynatrace-metric-utils-go v0.4.0 h1:DNKHy0pt6iKh5w/FqWTlNL/vvZE5zxPLfjfm0Zqclc4=
+github.com/dynatrace-oss/dynatrace-metric-utils-go v0.4.0/go.mod h1:qw0E9EJ0PnSlhWawDNuqE0zhc1hqOBUCFIAj3dd9DNw=
 github.com/eapache/go-resiliency v1.1.0/go.mod h1:kFI+JgMyC7bLPUVY133qvEBtVayf5mFgVsvEsIPBvNs=
 github.com/eapache/go-resiliency v1.2.0 h1:v7g92e/KSN71Rq7vSThKaWIq68fL4YHvWyiUKorFR1Q=
 github.com/eapache/go-resiliency v1.2.0/go.mod h1:kFI+JgMyC7bLPUVY133qvEBtVayf5mFgVsvEsIPBvNs=
@@ -2155,7 +2155,6 @@ go.opentelemetry.io/collector/model v0.38.0/go.mod h1:gS8A27wi+8gM3hrXL+dEjTbrbL
 go.opentelemetry.io/collector/model v0.39.0/go.mod h1:gS8A27wi+8gM3hrXL+dEjTbrbLxktjHjAwwqI31ELgQ=
 go.opentelemetry.io/collector/model v0.40.0 h1:UgdWfBnJBQL4atFv6LhlYq67Ts/vFDbwGknvsIsm/g8=
 go.opentelemetry.io/collector/model v0.40.0/go.mod h1:dXqjAeml+cB+YzJ3kUnd3v5/JvGAKl3MqHXfgSWRIo8=
-go.opentelemetry.io/contrib v0.20.0 h1:ubFQUn0VCZ0gPwIoJfBJVpeBlyRMxu8Mm/huKWYd9p0=
 go.opentelemetry.io/contrib v0.20.0/go.mod h1:G/EtFaa6qaN7+LxqfIAT3GiZa7Wv5DTBUzl5H4LY0Kc=
 go.opentelemetry.io/contrib v0.22.0 h1:0F7gDEjgb1WGn4ODIjaCAg75hmqF+UN0LiVgwxsCodc=
 go.opentelemetry.io/contrib v0.22.0/go.mod h1:EH4yDYeNoaTqn/8yCWQmfNB78VHfGX2Jt2bvnvzBlGM=
