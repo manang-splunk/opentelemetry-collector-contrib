@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/aws/aws-sdk-go v1.42.14
 	github.com/census-instrumentation/opencensus-proto v0.3.0
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.3
 	github.com/google/uuid v1.3.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil v0.40.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/metrics v0.40.0
