@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/aws/aws-sdk-go v1.42.14
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.3.1
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/proxy v0.40.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray v0.40.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.40.0
