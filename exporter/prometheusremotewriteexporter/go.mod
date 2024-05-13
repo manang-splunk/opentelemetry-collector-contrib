@@ -9,7 +9,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.40.0
 	github.com/prometheus/common v0.53.0
 	github.com/prometheus/prometheus v1.8.2-0.20210621150501-ff58416a0b02
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.2
 	github.com/tidwall/wal v0.1.6
 	go.opentelemetry.io/collector v0.40.0
 	go.opentelemetry.io/collector/model v0.40.0
@@ -23,6 +23,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/knadh/koanf v1.3.2 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/mapstructure v1.4.2 // indirect
@@ -35,7 +36,7 @@ require (
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/tidwall/tinylru v1.1.0 // indirect
-	go.opencensus.io v0.23.0 // indirect
+	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.27.0 // indirect
 	go.opentelemetry.io/otel v1.2.0 // indirect
 	go.opentelemetry.io/otel/internal/metric v0.25.0 // indirect
@@ -46,11 +47,11 @@ require (
 	golang.org/x/net v0.22.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	google.golang.org/genproto v0.0.0-20210604141403-392c879c8b08 // indirect
-	google.golang.org/grpc v1.42.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230530153820-e85fd2cbaebc // indirect
+	google.golang.org/grpc v1.55.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
