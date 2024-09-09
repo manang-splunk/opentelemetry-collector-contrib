@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/census-instrumentation/opencensus-proto v0.3.0
-	github.com/iancoleman/strcase v0.2.0
+	github.com/iancoleman/strcase v0.3.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.40.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig v0.40.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata v0.40.0
