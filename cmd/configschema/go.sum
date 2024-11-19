@@ -135,8 +135,8 @@ github.com/DATA-DOG/go-sqlmock v1.3.3/go.mod h1:f/Ixk793poVmq4qj/V1dPUg2JEAKC73Q
 github.com/DATA-DOG/go-sqlmock v1.4.1/go.mod h1:f/Ixk793poVmq4qj/V1dPUg2JEAKC73Q5eFN3EC/SaM=
 github.com/DataDog/agent-payload/v5 v5.0.3 h1:bt8oAkMru2o+D/WP6HfDePRHLE4cPmV1IPKew5N43PU=
 github.com/DataDog/agent-payload/v5 v5.0.3/go.mod h1:2gapp8p4Vd548JI+axD8kCExklNvVI6AMF5/+IfN/4g=
-github.com/DataDog/datadog-agent/pkg/quantile v0.32.1 h1:1h2ymmX1MdodDOLmdmwoTPsZQby+z4iAGsjraBCUF+8=
-github.com/DataDog/datadog-agent/pkg/quantile v0.32.1/go.mod h1:AJEOJwqKBG7f1e3/jtxjb1tUdW4RG30PhllTgKg1fDc=
+github.com/DataDog/datadog-agent/pkg/quantile v0.32.4 h1:cPVvKsQ3ENd3FxfeM/yln42czFn+9lRcBIC6xPPKu9I=
+github.com/DataDog/datadog-agent/pkg/quantile v0.32.4/go.mod h1:AJEOJwqKBG7f1e3/jtxjb1tUdW4RG30PhllTgKg1fDc=
 github.com/DataDog/datadog-agent/pkg/trace/exportable v0.0.0-20201016145401-4646cf596b02 h1:N2BRKjJ/c+ipDwt5b+ijqEc2EsmK3zXq2lNeIPnSwMI=
 github.com/DataDog/datadog-agent/pkg/trace/exportable v0.0.0-20201016145401-4646cf596b02/go.mod h1:EalMiS87Guu6PkLdxz7gmWqi+dRs9sjYLTOyTrM/aVU=
 github.com/DataDog/datadog-agent/pkg/util/log v0.0.0-20201009091607-ce4e57cdf8f4/go.mod h1:cRy7lwapA3jcjnX74kU6NFkXaRGQyB0l/QZA0IwYGEQ=
@@ -2155,7 +2155,6 @@ go.opentelemetry.io/collector/model v0.38.0/go.mod h1:gS8A27wi+8gM3hrXL+dEjTbrbL
 go.opentelemetry.io/collector/model v0.39.0/go.mod h1:gS8A27wi+8gM3hrXL+dEjTbrbLxktjHjAwwqI31ELgQ=
 go.opentelemetry.io/collector/model v0.40.0 h1:UgdWfBnJBQL4atFv6LhlYq67Ts/vFDbwGknvsIsm/g8=
 go.opentelemetry.io/collector/model v0.40.0/go.mod h1:dXqjAeml+cB+YzJ3kUnd3v5/JvGAKl3MqHXfgSWRIo8=
-go.opentelemetry.io/contrib v0.20.0 h1:ubFQUn0VCZ0gPwIoJfBJVpeBlyRMxu8Mm/huKWYd9p0=
 go.opentelemetry.io/contrib v0.20.0/go.mod h1:G/EtFaa6qaN7+LxqfIAT3GiZa7Wv5DTBUzl5H4LY0Kc=
 go.opentelemetry.io/contrib v0.22.0 h1:0F7gDEjgb1WGn4ODIjaCAg75hmqF+UN0LiVgwxsCodc=
 go.opentelemetry.io/contrib v0.22.0/go.mod h1:EH4yDYeNoaTqn/8yCWQmfNB78VHfGX2Jt2bvnvzBlGM=
