@@ -379,7 +379,7 @@ require (
 	go.etcd.io/bbolt v1.3.6 // indirect
 	go.mongodb.org/atlas v0.14.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
-	go.opentelemetry.io/collector/model v0.40.0 // indirect
+	go.opentelemetry.io/collector/model v0.42.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.27.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.27.0 // indirect
 	go.opentelemetry.io/contrib/zpages v0.27.0 // indirect
@@ -406,7 +406,7 @@ require (
 	google.golang.org/api v0.60.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20211021150943-2b146023228c // indirect
-	google.golang.org/grpc v1.42.0 // indirect
+	google.golang.org/grpc v1.43.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/DataDog/dd-trace-go.v1 v1.34.0 // indirect
 	gopkg.in/alexcesaro/statsd.v2 v2.0.0 // indirect
