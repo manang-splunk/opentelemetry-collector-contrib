@@ -1,6 +1,6 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstransformprocessor
 
-go 1.17
+go 1.22
 
 require (
 	github.com/census-instrumentation/opencensus-proto v0.3.0
@@ -10,8 +10,7 @@ require (
 	go.opentelemetry.io/collector v0.40.0
 	go.opentelemetry.io/collector/model v0.40.0
 	go.uber.org/zap v1.19.1
-	google.golang.org/protobuf v1.27.1
-
+	google.golang.org/protobuf v1.36.6
 )
 
 require (
