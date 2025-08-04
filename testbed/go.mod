@@ -1,9 +1,9 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/testbed
 
-go 1.17
+go 1.23.5
 
 require (
-	github.com/fluent/fluent-logger-golang v1.7.0
+	github.com/fluent/fluent-logger-golang v1.10.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/carbonexporter v0.40.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/jaegerexporter v0.40.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter v0.40.0
@@ -136,7 +136,7 @@ require (
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/openzipkin/zipkin-go v0.3.0 // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
-	github.com/philhofer/fwd v1.0.0 // indirect
+	github.com/philhofer/fwd v1.1.3-0.20240916144458-20a13a1f6b7c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.11.0 // indirect
@@ -159,7 +159,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.9.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
-	github.com/tinylib/msgp v1.1.0 // indirect
+	github.com/tinylib/msgp v1.3.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.9 // indirect
 	github.com/tklauser/numcpus v0.3.0 // indirect
 	github.com/uber/jaeger-client-go v2.29.1+incompatible // indirect
