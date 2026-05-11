@@ -1,6 +1,6 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter
 
-go 1.17
+go 1.23
 
 require (
 	github.com/pierrec/lz4 v2.6.1+incompatible
@@ -11,7 +11,7 @@ require (
 	go.uber.org/zap v1.19.1
 )
 
-require google.golang.org/protobuf v1.27.1
+require google.golang.org/protobuf v1.36.11
 
 require (
 	github.com/benbjohnson/clock v1.2.0 // indirect
