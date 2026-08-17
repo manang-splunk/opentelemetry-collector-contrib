@@ -1,9 +1,9 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/honeycombexporter
 
-go 1.17
+go 1.23
 
 require (
-	github.com/google/go-cmp v0.5.6
+	github.com/google/go-cmp v0.7.0
 	github.com/honeycombio/libhoney-go v1.15.6
 	github.com/klauspost/compress v1.13.6
 	github.com/stretchr/testify v1.7.0
@@ -11,7 +11,7 @@ require (
 	go.opentelemetry.io/collector/model v0.40.0
 	go.uber.org/multierr v1.7.0
 	go.uber.org/zap v1.19.1
-	google.golang.org/protobuf v1.27.1
+	google.golang.org/protobuf v1.36.12
 )
 
 require (
