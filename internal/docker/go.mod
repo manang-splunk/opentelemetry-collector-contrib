@@ -1,10 +1,10 @@
 module github.com/open-telemetry/opentelemetry-collector-contrib/internal/docker
 
-go 1.17
+go 1.22.0
 
 require (
 	github.com/docker/docker v20.10.11+incompatible
-	github.com/gobwas/glob v0.2.3
+	github.com/gobwas/glob v1.0.0
 	github.com/stretchr/testify v1.7.0
 	go.uber.org/zap v1.19.1
 )
