@@ -7,7 +7,6 @@ require (
 	go.opentelemetry.io/collector v0.40.0
 	go.opentelemetry.io/collector/model v0.40.0
 	go.uber.org/zap v1.19.1
-
 )
 
 require (
