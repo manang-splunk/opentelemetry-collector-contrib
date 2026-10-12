@@ -16,7 +16,7 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/google/uuid v1.3.0
 	github.com/jaegertracing/jaeger v1.28.0
-	go.uber.org/multierr v1.7.0
+	go.uber.org/multierr v1.11.0
 )
 
 require (
@@ -46,7 +46,7 @@ require (
 	golang.org/x/sys v0.0.0-20211013075003-97ac67df715c // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger => ../../pkg/translator/jaeger
